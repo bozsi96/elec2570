@@ -1,0 +1,195 @@
+Dependencies for Project 'jpegXS', Target 'jpegXS': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\src\bitpacking.c)(0x5F2C7776)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/bitpacking.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+F (.\src\budget.c)(0x5F2D1ADC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/budget.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (src\include\budget.h)(0x5F2D1ADE)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\sig_mag.h)(0x5F298078)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+F (.\src\dwt53.c)(0x5F5F42F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/dwt53.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (src\include\dwt53.h)(0x5F2D0B0C)
+F (.\src\gcli.c)(0x5F29831A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/gcli.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+F (.\src\image_transforms.c)(0x5D808100)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/image_transforms.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (src\include\image_transforms.h)(0x5F2D111C)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\dwt53.h)(0x5F2D0B0C)
+F (.\src\lvls_map.c)(0x5F5F41B6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/lvls_map.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\dwt53.h)(0x5F2D0B0C)
+F (.\src\main.c)(0x5F2D0DCE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\elec2570_config.h)(0x5F2D158E)
+I (src\input\image_64_16.h)(0x5F2D064E)
+I (src\include\tco_conf.h)(0x5D146BF2)
+F (.\src\packing.c)(0x5F5F40F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/packing.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x60355C16)
+I (src\include\budget.h)(0x5F2D1ADE)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\packing.h)(0x5F2D18E8)
+I (src\include\rate_control.h)(0x5F2C3FB0)
+I (src\include\sb_weighting.h)(0x5F2ABD06)
+F (.\src\precinct.c)(0x5F2D1DA4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/precinct.o -MD)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+F (.\src\precinct_budget.c)(0x5F5F4156)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/precinct_budget.o -MD)
+I (src\include\packing.h)(0x5F2D18E8)
+I (src\include\sig_mag.h)(0x5F298078)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\rate_control.h)(0x5F2C3FB0)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+F (.\src\rate_control.c)(0x5F5F4148)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/rate_control.o -MD)
+I (src\include\rate_control.h)(0x5F2C3FB0)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+I (src\include\budget.h)(0x5F2D1ADE)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\sb_weighting.h)(0x5F2ABD06)
+I (src\include\xs_markers.h)(0x5F2C339C)
+I (src\include\tco_conf.h)(0x5D146BF2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+F (.\src\sb_weighting.c)(0x5F2C1C0A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/sb_weighting.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (src\include\packing.h)(0x5F2D18E8)
+I (src\include\sig_mag.h)(0x5F298078)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\rate_control.h)(0x5F2C3FB0)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+F (.\src\sig_mag.c)(0x5F2C7082)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/sig_mag.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\sig_mag.h)(0x5F298078)
+F (.\src\tco_conf.c)(0x5F5F4148)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/tco_conf.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (src\include\tco_conf.h)(0x5D146BF2)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+F (.\src\tco_enc.c)(0x5F5F40F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/tco_enc.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60355C30)
+I (src\include\xs_markers.h)(0x5F2C339C)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\tco_conf.h)(0x5D146BF2)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\precinct.h)(0x5F2D13EC)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\gcli.h)(0x5F2C3F86)
+I (src\include\sig_mag.h)(0x5F298078)
+I (src\include\image_transforms.h)(0x5F2D111C)
+I (src\include\dwt53.h)(0x5F2D0B0C)
+I (src\include\budget.h)(0x5F2D1ADE)
+I (src\include\precinct_budget.h)(0x5F2D194E)
+I (src\include\packing.h)(0x5F2D18E8)
+I (src\include\rate_control.h)(0x5F2C3FB0)
+F (.\src\xs_markers.c)(0x5F2D13EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/xs_markers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (src\include\lvls_map.h)(0x5F5F41CE)
+I (src\include\tco.h)(0x5F2D151C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (src\include\tco_conf.h)(0x5D146BF2)
+I (src\include\bitpacking.h)(0x5F5F41FE)
+I (src\include\xs_markers.h)(0x5F2C339C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+F (RTE\Device\ARMCM0\startup_ARMCM0.s)(0x6144DF3A)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-mlittle-endian -gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM0 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_armcm0.o)
+F (RTE\Device\ARMCM0\system_ARMCM0.c)(0x6145B9DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I src/include/-I./RTE/_jpegXS-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Balazs/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/system_armcm0.o -MD)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include\ARMCM0.h)(0x60D43D42)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D43D42)
+I (C:\Users\Balazs\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include\system_ARMCM0.h)(0x60D43D42)

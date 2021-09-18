@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\objects\bitpacking.o"
+".\objects\budget.o"
+".\objects\dwt53.o"
+".\objects\gcli.o"
+".\objects\image_transforms.o"
+".\objects\lvls_map.o"
+".\objects\main.o"
+".\objects\packing.o"
+".\objects\precinct.o"
+".\objects\precinct_budget.o"
+".\objects\rate_control.o"
+".\objects\sb_weighting.o"
+".\objects\sig_mag.o"
+".\objects\tco_conf.o"
+".\objects\tco_enc.o"
+".\objects\xs_markers.o"
+".\objects\startup_armcm0.o"
+".\objects\system_armcm0.o"
+--strict --scatter ".\Objects\jpegXS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\jpegXS.map" -o .\Objects\jpegXS.axf
