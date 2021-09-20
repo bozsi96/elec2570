@@ -48,7 +48,7 @@
 
 #include "elec2570_config.h"
 #include "tco.h"
-#include "input/image_64_16.h"
+#include "input/image_64_256.h"
 #include "tco_conf.h"
  
 void elec2570_image_init(image_t* ptr);
