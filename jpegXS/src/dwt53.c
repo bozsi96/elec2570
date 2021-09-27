@@ -90,28 +90,33 @@ int dwt53(dwt_data_t* data_in, int len, dwt_data_t* lf_out, int lf_max_len, int*
 	*lf_len = (len+1)/2;
 	
 	// High pass filter coefficients
-	const float G[] = {-0.5, 1, -0.5};
-	const float Gend[] = {-1,1}; // End boundary
+	//const float G[] = {-0.5, 1, -0.5};
+	//const float Gend[] = {-1,1}; // End boundary
+	const int8_t G[] = {-4, 8, -4};
+	const int8_t Gend[] = {-8, 8};
 	
 	// Low pass filter coefficients
-	const float H[] = {-0.125, 0.25, 0.75, 0.25, -0.125};
-	const float H0[] = {0.75, 0.5, -0.25}; // Start boundary
-	const float Hend[] = {-0.125, 0.25, 0.625, 0.25}; // End boundary
+	//const float H[] = {-0.125, 0.25, 0.75, 0.25, -0.125};
+	//const float H0[] = {0.75, 0.5, -0.25}; // Start boundary
+	//const float Hend[] = {-0.125, 0.25, 0.625, 0.25}; // End boundary
+	const int8_t H[] = {-1, 2, 6, 2, -1};
+	const int8_t H0[] = {6, 4, -2};
+	const int8_t Hend[] = {-1, 2, 5, 2};
 
 	if ((*hf_len > hf_max_len) || (*lf_len > lf_max_len))
 		return -1;
 
 	// High pass
 	for (i=1; i<len-1; i+=2)
-		hf_out[(i/2)*inc] = (dwt_data_t) (G[0]*data_in[(i-1)] + G[1]* data_in[i] + G[2]*data_in[(i+1)]);
-	hf_out[((len-1)/2)*inc] = Gend[0]*data_in[(len-2)] + Gend[1]* data_in[(len-1)];
+		hf_out[(i/2)*inc] = (dwt_data_t) (G[0]*data_in[(i-1)] + G[1]* data_in[i] + G[2]*data_in[(i+1)]) / 8;
+	hf_out[((len-1)/2)*inc] = (dwt_data_t) (Gend[0]*data_in[(len-2)] + Gend[1]* data_in[(len-1)]) / 8;
 	
 	// Low pass
-	lf_out[0] = (dwt_data_t) (H0[0]*data_in[0] + H0[1]* data_in[1] + H0[2]*data_in[2] + 0.5 );
+	lf_out[0] = (dwt_data_t) ((H0[0]*data_in[0] + H0[1]* data_in[1] + H0[2]*data_in[2] + 4) / 8 );
 	for (i=2; i<=len-4; i+=2){
-		lf_out[(i/2)*inc] = (dwt_data_t) (H[0]*data_in[(i-2)]+ H[1]*data_in[(i-1)]+H[2]*data_in[i] +H[3]*data_in[(i+1)]+H[4]*data_in[(i+2)] + 0.5);
+		lf_out[(i/2)*inc] = (dwt_data_t) ((H[0]*data_in[(i-2)]+ H[1]*data_in[(i-1)]+H[2]*data_in[i] +H[3]*data_in[(i+1)]+H[4]*data_in[(i+2)] + 4) / 8);
 	}
-	lf_out[((len-2)/2)*inc] = (dwt_data_t) (Hend[0]*data_in[(len-4)]+Hend[1]*data_in[(len-3)]+Hend[2]*data_in[(len-2)]+Hend[3]*data_in[(len-1)] + 0.5);	
+	lf_out[((len-2)/2)*inc] = (dwt_data_t) ((Hend[0]*data_in[(len-4)]+Hend[1]*data_in[(len-3)]+Hend[2]*data_in[(len-2)]+Hend[3]*data_in[(len-1)] + 4) / 8);	
 	
 	return 0;
 }

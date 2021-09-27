@@ -22,13 +22,52 @@ Dialog DLL:      TARMCM1.DLL V1.14.4.0
  
 <h2>Project:</h2>
 C:\Users\Balazs\Documents\git\elec2570\jpegXS\jpegXS.uvprojx
-Project File Date:  09/17/2021
+Project File Date:  09/23/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'jpegXS'
+src/main.c(51): warning: In file included from...
+src/input/image_64_test.h(8): warning: no previous extern declaration for non-static variable 'input_image' [-Wmissing-variable-declarations]
+const unsigned char input_image[8384] = {0x00};
+                    ^
+src/input/image_64_test.h(8): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+const unsigned char input_image[8384] = {0x00};
+      ^
+src/main.c(56): warning: no previous extern declaration for non-static variable 'bitstream_buf' [-Wmissing-variable-declarations]
+uint8_t* bitstream_buf = NULL;                  // Buffer for output bitstream
+         ^
+src/main.c(56): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t* bitstream_buf = NULL;                  // Buffer for output bitstream
+^
+src/main.c(57): warning: no previous extern declaration for non-static variable 'bitstream_size' [-Wmissing-variable-declarations]
+int bitstream_size = 0;                                                 // Size of output bitstream
+    ^
+src/main.c(57): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int bitstream_size = 0;                                                 // Size of output bitstream
+^
+src/main.c(47): warning: In file included from...
+src/include/tco.h(88): warning: padding struct 'struct tco_conf_t' with 1 byte to align 'col_sz' [-Wpadded]
+        uint16_t col_sz;
+                 ^
+src/include/tco.h(90): warning: padding struct 'struct tco_conf_t' with 2 bytes to align 'budget_report_nbytes' [-Wpadded]
+        int32_t         budget_report_nbytes;             
+                        ^
+src/include/tco.h(93): warning: padding struct 'struct tco_conf_t' with 2 bytes to align 'gains_choice' [-Wpadded]
+        int             gains_choice;
+                        ^
+src/main.c(76): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        bitstream_buf = malloc(bitstream_buf_max_size);                                                                  // Allocate space for output bitstream
+                        ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~
+src/main.c(90): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        array_ptr = (tco_data_in_t*) malloc(w*h*sizeof(tco_data_in_t));
+                                            ~^~~
+8 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=8502 RO-data=8662 RW-data=48 ZI-data=30824  
 After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe Objects\*.axf --vhx --32x1 --output ./output/code.hex
-".\Objects\jpegXS.axf" - 0 Error(s), 0 Warning(s).
+".\Objects\jpegXS.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 

@@ -65,7 +65,7 @@ typedef enum unary_alphabet_e
 #define MAX_UNARY_SECONDARY MAX_UNARY
 #endif
 
-typedef uint64_t packer_data_t;
+typedef uint32_t packer_data_t;
 
 typedef struct bit_packer_t bit_packer_t;
 

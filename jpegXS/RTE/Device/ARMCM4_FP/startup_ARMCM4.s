@@ -1,7 +1,7 @@
 ;/**************************************************************************//**
-; * @file     startup_ARMCM0.s
+; * @file     startup_ARMCM4.s
 ; * @brief    CMSIS Core Device Startup File for
-; *           ARMCM0 Device
+; *           ARMCM4 Device
 ; * @version  V1.0.1
 ; * @date     23. July 2019
 ; ******************************************************************************/
@@ -42,7 +42,7 @@ __initial_sp
 ;  <o> Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
 ;</h>
 
-Heap_Size       EQU      0x00005800
+Heap_Size       EQU      0x00004000
 
                 IF       Heap_Size != 0                      ; Heap is provided
                 AREA     HEAP, NOINIT, READWRITE, ALIGN=3
@@ -67,15 +67,15 @@ __Vectors       DCD      __initial_sp                        ;     Top of Stack
                 DCD      Reset_Handler                       ;     Reset Handler
                 DCD      NMI_Handler                         ; -14 NMI Handler
                 DCD      HardFault_Handler                   ; -13 Hard Fault Handler
+                DCD      MemManage_Handler                   ; -12 MPU Fault Handler
+                DCD      BusFault_Handler                    ; -11 Bus Fault Handler
+                DCD      UsageFault_Handler                  ; -10 Usage Fault Handler
                 DCD      0                                   ;     Reserved
                 DCD      0                                   ;     Reserved
                 DCD      0                                   ;     Reserved
                 DCD      0                                   ;     Reserved
-                DCD      0                                   ;     Reserved
-                DCD      0                                   ;     Reserved
-                DCD      0                                   ;     Reserved
-                DCD      SVC_Handler                         ;  -5 SVCall Handler
-                DCD      0                                   ;     Reserved
+                DCD      SVC_Handler                         ;  -5 SVC Handler
+                DCD      DebugMon_Handler                    ;  -4 Debug Monitor Handler
                 DCD      0                                   ;     Reserved
                 DCD      PendSV_Handler                      ;  -2 PendSV Handler
                 DCD      SysTick_Handler                     ;  -1 SysTick Handler
@@ -92,7 +92,7 @@ __Vectors       DCD      __initial_sp                        ;     Top of Stack
                 DCD      Interrupt8_Handler                  ;   8 Interrupt 8
                 DCD      Interrupt9_Handler                  ;   9 Interrupt 9
 
-                SPACE    ( 22 * 4)                           ; Interrupts 10 .. 31 are left out
+                SPACE    (214 * 4)                           ; Interrupts 10 .. 224 are left out
 __Vectors_End
 __Vectors_Size  EQU      __Vectors_End - __Vectors
 
@@ -134,7 +134,11 @@ $Handler_Name   PROC
 ; Default exception/interrupt handler
 
                 Set_Default_Handler  NMI_Handler
+                Set_Default_Handler  MemManage_Handler
+                Set_Default_Handler  BusFault_Handler
+                Set_Default_Handler  UsageFault_Handler
                 Set_Default_Handler  SVC_Handler
+                Set_Default_Handler  DebugMon_Handler
                 Set_Default_Handler  PendSV_Handler
                 Set_Default_Handler  SysTick_Handler
 
